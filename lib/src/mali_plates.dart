@@ -21,7 +21,6 @@ abstract final class _Layout {
   static const double digitsLeft = 245;
   static const double rightLettersLeft = 430;
 
-  /// Cell width for letters and digits.
   static const double cellWidth = 45;
 }
 
