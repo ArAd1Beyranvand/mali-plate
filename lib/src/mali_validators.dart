@@ -7,8 +7,7 @@ class MaliValidator extends GatedPlateValidator {
   @override
   String get gateGroup => 'suffix';
 
-  static const String reasonFormat =
-      'Format is 2 letters, 4 digits, 2 letters.';
+  static const String reasonFormat = 'Format is 2 letters, 4 digits, 2 letters.';
 
   @override
   PlateValidation judge(PlateEntry entry) {
